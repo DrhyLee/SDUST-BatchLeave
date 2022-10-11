@@ -1,0 +1,96 @@
+get_approval_detail
+第一次7日10：34分记录
+
+import requests
+
+cookies = {
+    'wwapp.vid': '1688857179397824',
+    'wwoa.h5_approval.skey': 'ks8ZoGx5ko0bz52h96OZObHs97SdmRS0o5Z-myq2zZ_KR29CP4k3B0BXemUKyX0PbKRrYxl6nZmplyFjTXKg9w',
+    'wwrtx.i18n_lan': 'zh',
+    'wwapp.cst': 'FF45A239AFFC061902C12326EC220E315E93DA77A64E99492E5C69777C05AFB4828D9850DBC5BDE85A5AC48BED27D605',
+    'wwapp.deviceid': '21f512b7-5023-41d3-b473-ee55c7640d16',
+    'wwapp.st': 'CF553AA8911BF832C2BD93C7D118D9682B5928E3330172D567210192C5A4FF753E219BA22540DC1A48D894E60076DF49EE91C8D5D604C23E393AB073387F5AB99F56B6BC4FEAF5C9F2CDBD04D621A8EE8B1CE3D195CD05757A4E6500249EED6BB2C8E09569E779CB3C5BFB4E0018257085A93588F2353E23BCAD6F7F98ADD407E11141B70622D194B6F8F89C3DAB8EB60DC2FBAA0155E9250776C29BC63C7D14DDCBC3E5DABAC43952DE5914CD3CFFC48F98B8BC368F2338691896EBD2F4E8DB141BF408F16F82647E0DA9130DD77465BA71C632E6AB79B2929AC3CDC449B3FC36EAA8E02BAB24D976252EB9D632EA0D',
+    'wwapp.vid': '1688857179397824',
+    'wwapp.corpid': '1970324942121571',
+    'wwapp.sessionkey': '',
+    'wwapp.termid': '65538',
+    'wwrtx.c_gdpr': '0',
+    'wwrtx.ref': 'direct',
+    'wwrtx.refid': '0683295',
+    'ww_rtkey': '2r88d6p',
+}
+
+headers = {
+    'Accept': '*/*',
+    'Content-Type': 'application/json',
+    # Requests sorts cookies= alphabetically
+    # 'Cookie': 'wwapp.vid=1688857179397824; wwoa.h5_approval.skey=ks8ZoGx5ko0bz52h96OZObHs97SdmRS0o5Z-myq2zZ_KR29CP4k3B0BXemUKyX0PbKRrYxl6nZmplyFjTXKg9w; wwrtx.i18n_lan=zh; wwapp.cst=FF45A239AFFC061902C12326EC220E315E93DA77A64E99492E5C69777C05AFB4828D9850DBC5BDE85A5AC48BED27D605; wwapp.deviceid=21f512b7-5023-41d3-b473-ee55c7640d16; wwapp.st=CF553AA8911BF832C2BD93C7D118D9682B5928E3330172D567210192C5A4FF753E219BA22540DC1A48D894E60076DF49EE91C8D5D604C23E393AB073387F5AB99F56B6BC4FEAF5C9F2CDBD04D621A8EE8B1CE3D195CD05757A4E6500249EED6BB2C8E09569E779CB3C5BFB4E0018257085A93588F2353E23BCAD6F7F98ADD407E11141B70622D194B6F8F89C3DAB8EB60DC2FBAA0155E9250776C29BC63C7D14DDCBC3E5DABAC43952DE5914CD3CFFC48F98B8BC368F2338691896EBD2F4E8DB141BF408F16F82647E0DA9130DD77465BA71C632E6AB79B2929AC3CDC449B3FC36EAA8E02BAB24D976252EB9D632EA0D; wwapp.vid=1688857179397824; wwapp.corpid=1970324942121571; wwapp.sessionkey=; wwapp.termid=65538; wwrtx.c_gdpr=0; wwrtx.ref=direct; wwrtx.refid=0683295; ww_rtkey=2r88d6p',
+    # 'Accept-Encoding': 'gzip, deflate, br',
+    'Host': 'app.work.weixin.qq.com',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Language/zh ColorScheme/Light DistType/publish wxwork/4.0.16 (MicroMessenger/6.2) WeChat/2.0.4',
+    'Referer': 'https://app.work.weixin.qq.com/wework_admin/approval_v3',
+    'Accept-Language': 'zh-CN,zh-Hans;q=0.9',
+    'Connection': 'keep-alive',
+}
+
+params = {
+    'is_approval_v3': 'true',
+    'sp_id': 'Ds1frybxr6qoedBMYUPG5tUrm2kgfdMJSJZQsLcp23Ef',
+    'sp_no': '202210070869',
+    'is_from': 'creator',
+    'timezone_offset': '-8',
+    'filter': '',
+    'lang': 'zh_CN',
+    'ajax': '1',
+    'f': 'json',
+    'random': '126870.00000000001',
+}
+
+response = requests.get('https://app.work.weixin.qq.com/wework_admin/approval/api/get_approval_detail', params=params, cookies=cookies, headers=headers)
+
+get_approval_detail
+第二次10日09：24分记录
+
+import requests
+
+cookies = {
+    'wwapp.vid': '1688857179397824',
+    'wwoa.h5_approval.skey': 'rUy-8YJ6EhjCxA7jXt-xbtTojfgS0C4HP4_YvfHOBsnp_mqE50qaQBFYHrR1Yy9NGoEhU8CigImeo0bURXNHbg',
+    'wwrtx.i18n_lan': 'zh',
+    'wwapp.cst': 'A0F5A4EC371C5004DF96559075EA960391379C79E5DC3712F4900D9E98BE8F75BF68F6490D9E15BAE3AC6E8E245B2E6D',
+    'wwapp.deviceid': '21f512b7-5023-41d3-b473-ee55c7640d16',
+    'wwapp.st': '91A1A5C7E49397BBA62E2D3B5C00513AB8DA65BF56DC46B002E77AA4D429F42DC362076F41DF158CD23A0B19A5A67AF3947E3A7C5345FC843C1CF47B1FE10D2E032E63936965C653F9CF0AC3F43B5E5E89853B9FE4D7544FC97E212046806889FA47076C6D163EBB6F6A868D6A0DD931E066FE12640B3CB045A055D8C54E6ADB6C8AEE59AF6CBC16DCA0AC2D538D8C3E6635F46E523E955BE3CA18670B390F8EE74E4240BC25CB5AE0AADB64728FF21491199C2E700DE8A9D6C47A6317ADB566E1784D0255EE5B339358F811405AE62712FEE1EAEF6CF97F7332B297C0B594676F514B3A932DCBD066AA01E94A7526DC',
+    'wwapp.vid': '1688857179397824',
+    'wwapp.corpid': '1970324942121571',
+    'wwapp.sessionkey': '',
+    'wwapp.termid': '65538',
+    'wwrtx.c_gdpr': '0',
+}
+
+headers = {
+    'Accept': '*/*',
+    'Content-Type': 'application/json',
+    # Requests sorts cookies= alphabetically
+    # 'Cookie': 'wwapp.vid=1688857179397824; wwoa.h5_approval.skey=rUy-8YJ6EhjCxA7jXt-xbtTojfgS0C4HP4_YvfHOBsnp_mqE50qaQBFYHrR1Yy9NGoEhU8CigImeo0bURXNHbg; wwrtx.i18n_lan=zh; wwapp.cst=A0F5A4EC371C5004DF96559075EA960391379C79E5DC3712F4900D9E98BE8F75BF68F6490D9E15BAE3AC6E8E245B2E6D; wwapp.deviceid=21f512b7-5023-41d3-b473-ee55c7640d16; wwapp.st=91A1A5C7E49397BBA62E2D3B5C00513AB8DA65BF56DC46B002E77AA4D429F42DC362076F41DF158CD23A0B19A5A67AF3947E3A7C5345FC843C1CF47B1FE10D2E032E63936965C653F9CF0AC3F43B5E5E89853B9FE4D7544FC97E212046806889FA47076C6D163EBB6F6A868D6A0DD931E066FE12640B3CB045A055D8C54E6ADB6C8AEE59AF6CBC16DCA0AC2D538D8C3E6635F46E523E955BE3CA18670B390F8EE74E4240BC25CB5AE0AADB64728FF21491199C2E700DE8A9D6C47A6317ADB566E1784D0255EE5B339358F811405AE62712FEE1EAEF6CF97F7332B297C0B594676F514B3A932DCBD066AA01E94A7526DC; wwapp.vid=1688857179397824; wwapp.corpid=1970324942121571; wwapp.sessionkey=; wwapp.termid=65538; wwrtx.c_gdpr=0',
+    # 'Accept-Encoding': 'gzip, deflate, br',
+    'Host': 'app.work.weixin.qq.com',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Language/zh ColorScheme/Light DistType/publish wxwork/4.0.16 (MicroMessenger/6.2) WeChat/2.0.4',
+    'Referer': 'https://app.work.weixin.qq.com/wework_admin/approval_v3',
+    'Accept-Language': 'zh-CN,zh-Hans;q=0.9',
+    'Connection': 'keep-alive',
+}
+
+params = {
+    'is_approval_v3': 'true',
+    'sp_id': 'Ds1frybxr6qoedBMYUPG5tWsRoRvHHWgBDGDmsz4PdGF',
+    'sp_no': '202210100241',
+    'is_from': 'creator',
+    'timezone_offset': '-8',
+    'filter': '',
+    'lang': 'zh_CN',
+    'ajax': '1',
+    'f': 'json',
+    'random': '403050',
+}
+
+response = requests.get('https://app.work.weixin.qq.com/wework_admin/approval/api/get_approval_detail', params=params, cookies=cookies, headers=headers)
